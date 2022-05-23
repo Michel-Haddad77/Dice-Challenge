@@ -39,6 +39,7 @@ footer {
   font-family: 'Indie Flower', cursive;
 }
 
+/*Added a font that properly displays the emoji*/
 @font-face {
   font-family: "Noto Emoji Regular";
   src: url('fonts/NotoColorEmoji.ttf')  format('truetype');

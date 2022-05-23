@@ -1,6 +1,8 @@
+//Two Random numbers 
 let random1 = Math.floor(Math.random() * 6) + 1;
 let random2 = Math.floor(Math.random() * 6) + 1;
 
+//choosing dice image based on the random number
 switch(random1) {
     case 1:
       document.getElementById("dice1").src = "images/dice1.png";
@@ -43,11 +45,12 @@ switch(random2) {
       break;
 }
 
+//Conditionals for announcing the winner
 if(random1 > random2){
     document.getElementById("status").innerHTML = "Play 1 Wins";
 }
 else if(random1 < random2){
-    document.getElementById("status").innerText = " Play 2 Wins";
+    document.getElementById("status").innerText = "Play 2 Wins";
 }
 else{
     document.getElementById("status").innerText = "Draw!";
