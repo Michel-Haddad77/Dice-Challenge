@@ -44,6 +44,8 @@ switch(random2) {
 }
 
 if(random1 > random2){
-    console.log("its working");
     document.getElementById("status").innerText = "🚩Play1 Wins";
+}
+else if(random1 < random2){
+    document.getElementById("status").innerText = "🚩Play2 Wins";
 }
