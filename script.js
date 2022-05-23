@@ -44,11 +44,12 @@ switch(random2) {
 }
 
 if(random1 > random2){
-    document.getElementById("status").innerText = "🚩Play1 Wins";
+    document.getElementById("status").innerHTML = "Play 1 Wins";
 }
 else if(random1 < random2){
-    document.getElementById("status").innerText = "🚩Play2 Wins";
+    document.getElementById("status").innerText = " Play 2 Wins";
 }
 else{
-    document.getElementById("status").innerText = "Draw";
+    document.getElementById("status").innerText = "Draw!";
+    document.getElementById("emoji").innerText = "";
 }

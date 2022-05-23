@@ -22,7 +22,7 @@ h1 {
   color: #4ECCA3;
 }
 
-p {
+p{
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
@@ -37,5 +37,20 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+@font-face {
+  font-family: "Noto Emoji Regular";
+  src: url('fonts/NotoColorEmoji.ttf')  format('truetype');
+}
+
+.status-container{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#emoji{
+  font-family: "Noto Emoji Regular";
+  font-size: 8rem;
 }
