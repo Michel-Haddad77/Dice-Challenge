@@ -49,3 +49,6 @@ if(random1 > random2){
 else if(random1 < random2){
     document.getElementById("status").innerText = "🚩Play2 Wins";
 }
+else{
+    document.getElementById("status").innerText = "Draw";
+}
